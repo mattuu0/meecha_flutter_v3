@@ -1,0 +1,33 @@
+name: meecha_v3
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  flutter_launcher_icons: ^0.14.1
+  flutter_local_notifications: ^18.0.0
+  location: ^7.0.1
+  # optimize_battery: ^0.0.4
+  permission_handler: ^11.3.1
+  web_socket_channel: ^3.0.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+flutter_launcher_icons:
+   android: true
+   ios: true
+   image_path: 'assets/images/icon.png'
+   adaptive_icon_background: '#ffffff'
+   adaptive_icon_foreground: 'assets/images/icon_adaptive_foreground.png'
